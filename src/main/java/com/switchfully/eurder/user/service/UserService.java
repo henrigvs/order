@@ -29,15 +29,18 @@ public class UserService {
         return userMapper.toDTO(user);
     }
 
-    public UserDTO registerAdministrator(CreateAdministratorDTO createAdministratorDTO, String userId) {
-        User adminUser = userRepository.getUserByUserId(userId);
+    public UserDTO registerAdministrator(CreateAdministratorDTO createAdministratorDTO, String adminId) {
+        User adminUser = userRepository.getUserByUserId(adminId);
         validateAdminAccess(adminUser);
 
         User user = userRepository.saveUser(userMapper.toEntity(createAdministratorDTO));
         return userMapper.toDTO(user);
     }
 
-    public UserDTO searchUserByUserId(String userId) {
+    public UserDTO searchUserByUserId(String userId, String adminId) {
+        User admin = this.userRepository.getUserByUserId(adminId);
+        validateAdminAccess(admin);
+
         User user = this.userRepository.getUserByUserId(userId);
         if (user == null) {
             throw new NonExistingUserIdException();

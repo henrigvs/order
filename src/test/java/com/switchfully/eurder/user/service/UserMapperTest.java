@@ -41,13 +41,13 @@ public class UserMapperTest {
     void toDTO_givenAUser_thenReturnADTO()  {
         UserDTO userDTO = userMapper.toDTO(user);
 
-        assertEquals(userDTO.getUserId(), user.getUserId());
-        assertEquals(userDTO.getFirstName(),user.getFirstName());
-        assertEquals(userDTO.getLastName(), user.getLastName());
-        assertEquals(userDTO.getEmail(), user.getEmail());
-        assertEquals(userDTO.getAddress(), user.getAddress());
-        assertEquals(userDTO.getPhoneNumber(),user.getPhoneNumber());
-        assertEquals(userDTO.getRole(),user.getRole());
+        assertEquals(userDTO.userId(), user.getUserId());
+        assertEquals(userDTO.firstName(),user.getFirstName());
+        assertEquals(userDTO.lastName(), user.getLastName());
+        assertEquals(userDTO.email(), user.getEmail());
+        assertEquals(userDTO.address(), user.getAddress());
+        assertEquals(userDTO.phoneNumber(),user.getPhoneNumber());
+        assertEquals(userDTO.role(),user.getRole());
     }
 
     @Test
@@ -56,8 +56,8 @@ public class UserMapperTest {
         List<UserDTO> userDTOList = userMapper.toListDTO(userList);
 
         assertEquals(2, userDTOList.size());
-        assertEquals(userDTOList.get(0).getUserId(), userList.get(0).getUserId());
-        assertEquals(userDTOList.get(1).getUserId(), userList.get(1).getUserId());
+        assertEquals(userDTOList.get(0).userId(), userList.get(0).getUserId());
+        assertEquals(userDTOList.get(1).userId(), userList.get(1).getUserId());
     }
 
     @Test

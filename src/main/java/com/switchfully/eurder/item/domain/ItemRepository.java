@@ -2,12 +2,14 @@ package com.switchfully.eurder.item.domain;
 
 import com.switchfully.eurder.item.domain.exceptions.ItemAlreadyExistException;
 import com.switchfully.eurder.item.domain.exceptions.ItemIdDoesNotExistException;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
+@Repository
 public class ItemRepository {
 
     private final ConcurrentHashMap<String, Item> itemRepository;

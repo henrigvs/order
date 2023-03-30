@@ -197,15 +197,18 @@ public class UserControllerTest {
                 }
                 """;
 
+        //AdminID required, but wrong!
+        String adminId = "wrongAdminId";
         Response response = given()
                 .contentType(ContentType.JSON)
                 .body(JSON_payload)
+                .header("adminId", adminId)
                 .when()
                 .port(port)
                 .post("users/admin")
                 .then()
                 .assertThat()
-                .statusCode(400)
+                .statusCode(HttpStatus.FORBIDDEN.value())
                 .contentType(ContentType.JSON)
                 .extract()
                 .response();
@@ -217,11 +220,13 @@ public class UserControllerTest {
         userService.registerCustomer(createCustomerDTO);
 
         // When
+        String adminId = "initialAdmin";
         UserDTO userDTO =
                 given()
                         .contentType(ContentType.JSON)
                         .when()
                         .port(port)
+                        .header("adminId", adminId)
                         .get(String.format("/users/user/%s", createCustomerDTO.getUserId()))
         // Then
                         .then()
@@ -230,7 +235,7 @@ public class UserControllerTest {
                         .extract()
                         .as(UserDTO.class);
 
-        assertEquals(createCustomerDTO.getUserId(), userDTO.getUserId());
+        assertEquals(createCustomerDTO.getUserId(), userDTO.userId());
     }
 
     @Test
@@ -257,7 +262,7 @@ public class UserControllerTest {
 
         UserDTO userDTO = response.jsonPath().getObject("user", UserDTO.class);
 
-        assertEquals(createCustomerDTO.getUserId(), userDTO.getUserId());
+        assertEquals(createCustomerDTO.getUserId(), userDTO.userId());
     }
 
     @Test

@@ -97,11 +97,13 @@ public class UserServiceTest {
 
     @Test
     void searchUserByUserId_givenExistingUserId_thenReturnUserDTO() throws NonExistingUserIdException, InvalidLastNameFormatException, InvalidFirstNameFormatException, InvalidPasswordFormatException, InvalidEmailFormatException, InvalidUserIdFormatException {
+        User adminSearchingUser = new User("AdminId","Admin", "Admin", "admin@admin.admin", "password", address, phoneNumber, Role.ADMINISTRATOR);
         User user = new User(userId, firstName, lastName, email, password, address, phoneNumber, Role.CUSTOMER);
 
+        when(userRepository.getUserByUserId("AdminId")).thenReturn(adminSearchingUser);
         when(userRepository.getUserByUserId(userId)).thenReturn(user);
 
-        UserDTO userDTO = userService.searchUserByUserId(userId);
+        UserDTO userDTO = userService.searchUserByUserId(userId, "AdminId");
 
         assertEquals(userMapper.toDTO(user), userDTO);
     }

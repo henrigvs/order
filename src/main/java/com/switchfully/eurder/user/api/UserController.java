@@ -32,8 +32,8 @@ public class UserController {
 
     @GetMapping(path = "/user/{userId}", produces = "application/json")
     @ResponseStatus(HttpStatus.OK)
-    public UserDTO searchUserByUserId(@PathVariable String userId){
-        return userService.searchUserByUserId(userId);
+    public UserDTO searchUserByUserId(@PathVariable String userId, @RequestHeader String adminId){
+        return userService.searchUserByUserId(userId, adminId);
     }
 
     @GetMapping(path = "/login", produces = "application/json")

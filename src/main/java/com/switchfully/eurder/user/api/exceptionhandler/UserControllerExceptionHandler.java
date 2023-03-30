@@ -42,32 +42,45 @@ public class UserControllerExceptionHandler extends ResponseEntityExceptionHandl
         return new ResponseEntity<>(userErrorResponse, status);
     }
 
-    @ExceptionHandler
+    /**
+     * @requires    any runtime exception
+     * @return      A Response Entity containing :
+     *                      the Http status : FORBIDDEN 403
+     *                      errorResponse(e.getMessage(), 403, FORBIDDEN)
+     */
+    private ResponseEntity<UserErrorResponse> forbiddenRequestHandler(RuntimeException e){
+        logger.error("Exception raised: ", e);
+        HttpStatus status = HttpStatus.FORBIDDEN;
+        UserErrorResponse userErrorResponse = new UserErrorResponse(e.getMessage(), status.value(), status.getReasonPhrase());
+        return new ResponseEntity<>(userErrorResponse, status);
+    }
+
+    @ExceptionHandler(EmailAlreadyExistsException.class)
     protected ResponseEntity<UserErrorResponse> emailAlreadyExistsException(EmailAlreadyExistsException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(UserIdAlreadyExistsException.class)
     protected ResponseEntity<UserErrorResponse> userIdAlreadyExistsException(UserIdAlreadyExistsException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidEmailFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidEmailFormatException(InvalidEmailFormatException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidFirstNameFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidFirstNameFormatException(InvalidFirstNameFormatException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidLastNameFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidLastNameFormatException(InvalidLastNameFormatException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidPasswordFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidPasswordFormatException(InvalidPasswordFormatException e){
         return badRequestHandler(e);
     }
@@ -77,33 +90,33 @@ public class UserControllerExceptionHandler extends ResponseEntityExceptionHandl
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(NoEmailPasswordMatchException.class)
     protected ResponseEntity<UserErrorResponse> noEmailPasswordMatchException(NoEmailPasswordMatchException e){
         return notFoundRequestHandler(e);
     }
     
-    @ExceptionHandler
+    @ExceptionHandler(NonExistingEmailException.class)
     protected ResponseEntity<UserErrorResponse> nonExistingEmailException(NonExistingEmailException e){
         return notFoundRequestHandler(e);
     }
     
-    @ExceptionHandler
+    @ExceptionHandler(NonExistingUserIdException.class)
     protected ResponseEntity<UserErrorResponse> nonExistingUserIdException(NonExistingUserIdException e){
         return notFoundRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidAddressFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidAddressFormatException(InvalidAddressFormatException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InvalidPhoneNumberFormatException.class)
     protected ResponseEntity<UserErrorResponse> invalidPhoneNumberFormatException(InvalidPhoneNumberFormatException e){
         return badRequestHandler(e);
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(InsufficientAccessRightException.class)
     protected ResponseEntity<UserErrorResponse> insufficientAccessRightException(InsufficientAccessRightException e){
-        return badRequestHandler(e);
+        return forbiddenRequestHandler(e);
     }
 }
