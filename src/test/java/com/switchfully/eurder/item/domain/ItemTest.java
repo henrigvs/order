@@ -1,7 +1,7 @@
 package com.switchfully.eurder.item.domain;
 
-import com.switchfully.eurder.item.domain.exceptions.IllegalDescriptionFormatException;
-import com.switchfully.eurder.item.domain.exceptions.IllegalNameFormatException;
+import com.switchfully.eurder.item.domain.exceptions.InvalidDescriptionFormatException;
+import com.switchfully.eurder.item.domain.exceptions.InvalidNameFormatException;
 import com.switchfully.eurder.item.domain.exceptions.NegativeAmountException;
 import com.switchfully.eurder.item.domain.exceptions.NegativePriceException;
 import org.junit.jupiter.api.Test;
@@ -36,7 +36,7 @@ class ItemTest {
 
     @Test
     void createItemWithEmptyName_thenThrowIllegalNameFormatException() {
-        assertThrows(IllegalNameFormatException.class, () -> {
+        assertThrows(InvalidNameFormatException.class, () -> {
             Item item = new Item.Builder()
                     .withName("")
                     .withDescription("A test item")
@@ -48,7 +48,7 @@ class ItemTest {
 
     @Test
     void createItemWithEmptyDescription_thenThrowIllegalDescriptionFormatException() {
-        assertThrows(IllegalDescriptionFormatException.class, () -> {
+        assertThrows(InvalidDescriptionFormatException.class, () -> {
             Item item = new Item.Builder()
                     .withName("Test Item")
                     .withDescription("")

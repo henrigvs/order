@@ -76,6 +76,36 @@ public class ItemControllerTest {
     }
 
     @Test
+    void saveItem_whenIProvideA_NonCorrect_JsonPayload_thenError403IsReturned(){
+        //Given
+        String JSON_payload =
+                """
+                {
+                    "name": "Bic",
+                    "description": "A good tool to write something down",
+                    "price": -0.99,
+                    "amount": 1000
+                }
+                """;    //Negative price provided
+
+        String adminId = "initialAdmin";
+        Response response = given()
+                .contentType(ContentType.JSON)
+                .body(JSON_payload)
+                // When
+                .when()
+                .header("adminId", adminId)
+                .port(port)
+                .post("items/item")
+                //Then
+                .then()
+                .assertThat()
+                .statusCode(HttpStatus.FORBIDDEN.value())
+                .extract()
+                .response();
+    }
+
+    @Test
     void updateItem_whenIProvideACorrectJSONPayload_thenAnExistingItemIsUpdated(){
         // Given
         String adminId = "initialAdmin";

@@ -1,7 +1,7 @@
 package com.switchfully.eurder.item.domain;
 
-import com.switchfully.eurder.item.domain.exceptions.IllegalDescriptionFormatException;
-import com.switchfully.eurder.item.domain.exceptions.IllegalNameFormatException;
+import com.switchfully.eurder.item.domain.exceptions.InvalidDescriptionFormatException;
+import com.switchfully.eurder.item.domain.exceptions.InvalidNameFormatException;
 import com.switchfully.eurder.item.domain.exceptions.NegativeAmountException;
 import com.switchfully.eurder.item.domain.exceptions.NegativePriceException;
 
@@ -18,10 +18,10 @@ public class Item {
 
     private Item(String name, String description, double price, int amount) {
         if (name == null || name.isEmpty()) {
-            throw new IllegalNameFormatException();
+            throw new InvalidNameFormatException();
         }
         if (description == null || description.isEmpty()) {
-            throw new IllegalDescriptionFormatException();
+            throw new InvalidDescriptionFormatException();
         }
         if (price < 0) {
             throw new NegativePriceException();
