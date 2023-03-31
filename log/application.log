@@ -1108,3 +1108,132 @@ com.switchfully.eurder.user.domain.exceptions.InvalidEmailFormatException: Inval
 2023-03-31T12:20:09.421+02:00  INFO 2198 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-31T12:20:09.781+02:00  INFO 2198 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-03-31T12:20:09.782+02:00  INFO 2198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:21:11.547+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2267 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:21:11.550+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:21:13.671+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:21:13.688+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:21:13.690+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:21:13.874+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:21:13.875+02:00  INFO 2267 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1974 ms
+2023-03-31T12:21:15.772+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53726 (http) with context path ''
+2023-03-31T12:21:15.789+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.736 seconds (process running for 7.289)
+2023-03-31T12:21:17.921+02:00  INFO 2267 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:21:17.922+02:00  INFO 2267 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:21:17.923+02:00  INFO 2267 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:21:18.290+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:21:18.292+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:21:18.348+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2267 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:21:18.349+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:21:18.660+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:21:18.661+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:21:18.662+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:21:18.688+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:21:18.688+02:00  INFO 2267 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 335 ms
+2023-03-31T12:21:19.376+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53729 (http) with context path ''
+2023-03-31T12:21:19.380+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 1.067 seconds (process running for 10.881)
+2023-03-31T12:21:19.404+02:00  INFO 2267 --- [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:21:19.404+02:00  INFO 2267 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:21:19.405+02:00  INFO 2267 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:21:19.430+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:21:19.431+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:21:19.471+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2267 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:21:19.471+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:21:19.727+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:21:19.728+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:21:19.728+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:21:19.752+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:21:19.752+02:00  INFO 2267 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2023-03-31T12:21:20.184+02:00  INFO 2267 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53732 (http) with context path ''
+2023-03-31T12:21:20.188+02:00  INFO 2267 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 0.748 seconds (process running for 11.688)
+2023-03-31T12:21:20.214+02:00  INFO 2267 --- [http-nio-auto-3-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:21:20.214+02:00  INFO 2267 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:21:20.215+02:00  INFO 2267 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:21:20.744+02:00  INFO 2267 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:21:20.745+02:00  INFO 2267 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:28:21.487+02:00  INFO 2314 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2314 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:28:21.491+02:00  INFO 2314 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:28:23.177+02:00  INFO 2314 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:28:23.190+02:00  INFO 2314 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:28:23.191+02:00  INFO 2314 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:28:23.353+02:00  INFO 2314 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:28:23.354+02:00  INFO 2314 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1518 ms
+2023-03-31T12:28:24.871+02:00  INFO 2314 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53831 (http) with context path ''
+2023-03-31T12:28:24.885+02:00  INFO 2314 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.94 seconds (process running for 6.101)
+2023-03-31T12:30:55.782+02:00  INFO 2314 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:31:01.796+02:00  INFO 2331 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2331 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:31:01.798+02:00  INFO 2331 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:31:03.409+02:00  INFO 2331 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:31:03.422+02:00  INFO 2331 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:31:03.423+02:00  INFO 2331 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:31:03.551+02:00  INFO 2331 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:31:03.551+02:00  INFO 2331 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1472 ms
+2023-03-31T12:31:05.000+02:00  INFO 2331 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53858 (http) with context path ''
+2023-03-31T12:31:05.012+02:00  INFO 2331 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.617 seconds (process running for 5.623)
+2023-03-31T12:31:06.588+02:00  INFO 2331 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:31:06.589+02:00  INFO 2331 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:31:06.590+02:00  INFO 2331 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:31:06.932+02:00  INFO 2331 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:31:06.934+02:00  INFO 2331 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:32:27.055+02:00  INFO 2345 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2345 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:32:27.061+02:00  INFO 2345 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:32:29.062+02:00  INFO 2345 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:32:29.079+02:00  INFO 2345 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:32:29.080+02:00  INFO 2345 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:32:29.234+02:00  INFO 2345 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:32:29.235+02:00  INFO 2345 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1795 ms
+2023-03-31T12:32:30.812+02:00  INFO 2345 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53867 (http) with context path ''
+2023-03-31T12:32:30.825+02:00  INFO 2345 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.275 seconds (process running for 6.407)
+2023-03-31T12:32:32.677+02:00  INFO 2345 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:32:32.677+02:00  INFO 2345 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:32:32.679+02:00  INFO 2345 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:34:50.105+02:00  INFO 2345 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:34:50.106+02:00  INFO 2345 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:34:53.909+02:00  INFO 2354 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2354 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:34:53.912+02:00  INFO 2354 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:34:55.699+02:00  INFO 2354 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:34:55.713+02:00  INFO 2354 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:34:55.714+02:00  INFO 2354 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:34:55.873+02:00  INFO 2354 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:34:55.874+02:00  INFO 2354 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2023-03-31T12:34:57.354+02:00  INFO 2354 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53890 (http) with context path ''
+2023-03-31T12:34:57.367+02:00  INFO 2354 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.981 seconds (process running for 6.472)
+2023-03-31T12:34:59.113+02:00  INFO 2354 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:34:59.114+02:00  INFO 2354 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:34:59.115+02:00  INFO 2354 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:37:01.023+02:00  INFO 2369 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2369 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:37:01.025+02:00  INFO 2369 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:37:02.718+02:00  INFO 2369 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:37:02.734+02:00  INFO 2369 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:37:02.734+02:00  INFO 2369 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:37:02.919+02:00  INFO 2369 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:37:02.920+02:00  INFO 2369 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1597 ms
+2023-03-31T12:37:04.397+02:00  INFO 2369 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53912 (http) with context path ''
+2023-03-31T12:37:04.412+02:00  INFO 2369 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.849 seconds (process running for 5.757)
+2023-03-31T12:37:06.187+02:00  INFO 2369 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:37:06.188+02:00  INFO 2369 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:37:06.189+02:00  INFO 2369 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:37:06.411+02:00  INFO 2369 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:37:06.413+02:00  INFO 2369 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:37:24.275+02:00  INFO 2373 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2373 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:37:24.278+02:00  INFO 2373 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:37:26.387+02:00  INFO 2373 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:37:26.402+02:00  INFO 2373 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:37:26.403+02:00  INFO 2373 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:37:26.598+02:00  INFO 2373 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:37:26.599+02:00  INFO 2373 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1976 ms
+2023-03-31T12:37:28.200+02:00  INFO 2373 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53919 (http) with context path ''
+2023-03-31T12:37:28.217+02:00  INFO 2373 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.427 seconds (process running for 6.423)
+2023-03-31T12:37:33.984+02:00  INFO 2377 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2377 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:37:33.986+02:00  INFO 2377 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:37:35.802+02:00  INFO 2377 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:37:35.817+02:00  INFO 2377 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:37:35.818+02:00  INFO 2377 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:37:35.991+02:00  INFO 2377 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:37:35.991+02:00  INFO 2377 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1644 ms
+2023-03-31T12:37:37.520+02:00  INFO 2377 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53926 (http) with context path ''
+2023-03-31T12:37:37.535+02:00  INFO 2377 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.003 seconds (process running for 5.924)
+2023-03-31T12:37:39.321+02:00  INFO 2377 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:37:39.321+02:00  INFO 2377 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:37:39.323+02:00  INFO 2377 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:38:32.141+02:00  INFO 2377 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:38:32.143+02:00  INFO 2377 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

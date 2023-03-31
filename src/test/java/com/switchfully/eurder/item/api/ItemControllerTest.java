@@ -1,6 +1,5 @@
 package com.switchfully.eurder.item.api;
 
-import com.switchfully.eurder.item.service.ItemMapper;
 import com.switchfully.eurder.item.service.ItemService;
 import com.switchfully.eurder.item.service.dtos.CreateItemDTO;
 import com.switchfully.eurder.item.service.dtos.ItemDTO;
@@ -18,8 +17,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
@@ -75,6 +73,44 @@ public class ItemControllerTest {
 
         ItemDTO itemDTO = response.jsonPath().getObject("", ItemDTO.class);
         assertNotNull(itemDTO.getItemId());
+    }
+
+    @Test
+    void updateItem_whenIProvideACorrectJSONPayload_thenAnExistingItemIsUpdated(){
+        // Given
+        String adminId = "initialAdmin";
+        itemService.saveItem(createItemDTO, adminId);
+        List<ItemDTO> listWithItem = itemService.getAllItems(adminId);
+        String itemId = listWithItem.get(0).getItemId();
+
+        String JSON_payload =
+                """
+                {
+                    "name": "Colgate",
+                    "description": "For a white smile",
+                    "price": 1.99,
+                    "amount": 15
+                }
+                """;    //Price modified 2.49 => 1.99
+
+        Response response=
+                given()
+                        .contentType(ContentType.JSON)
+                        // When
+                        .when()
+                        .body(JSON_payload)
+                        .header("adminId", adminId)
+                        .port(port)
+                        .put("/items/item/" + itemId)
+                        // Then
+                        .then()
+                        .assertThat()
+                        .statusCode(HttpStatus.OK.value())
+                        .extract()
+                        .response();
+
+        ItemDTO expectedItem = response.jsonPath().getObject("", ItemDTO.class);
+        assertEquals(1.99, expectedItem.getPrice());
     }
 
     @Test
