@@ -36,17 +36,10 @@ public class UserController {
         return userService.searchUserByUserId(userId, adminId);
     }
 
-    @GetMapping(path = "/login", produces = "application/json")
-    @ResponseStatus(HttpStatus.OK)
-    public Map<String, Object> searchByEmailAndByPassword(@RequestHeader String email, @RequestHeader String password){
-        UserDTO userDTO = userService.searchUserByEmailAndByPassword(password, email);
-        Map<String, Object> response = new HashMap<>();
-        response.put("message", "user found");
-        response.put("user", userDTO);
-        return response;
-    }
+
 
     /** POST */
+
 
     @PostMapping(path = "/customer", produces = "application/json", consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)

@@ -53,7 +53,7 @@ public class UserControllerTest {
                     "userId": "henriJavaDev",
                     "firstName": "Henri",
                     "lastName": "Gevenois",
-                    "email": "henri.gevenois@proton.org",
+                    "email": "henri.gevenois@proton.com",
                     "password": "1234",
                     "address": {
                         "street": "Rue de l'Aire",
@@ -83,7 +83,7 @@ public class UserControllerTest {
                 .body("userId", equalTo("henriJavaDev"))
                 .body("firstName", equalTo("Henri"))
                 .body("lastName", equalTo("Gevenois"))
-                .body("email", equalTo("henri.gevenois@proton.org"))
+                .body("email", equalTo("henri.gevenois@proton.com"))
                 .extract()
                 .response();
     }
@@ -134,7 +134,7 @@ public class UserControllerTest {
                     "userId": "henriJavaDev",
                     "firstName": "Henri",
                     "lastName": "Gevenois",
-                    "email": "henri.gevenois@proton.org",
+                    "email": "henri.gevenois@proton.com",
                     "password": "1234",
                     "address": {
                         "street": "Rue de l'Aire",
@@ -167,7 +167,7 @@ public class UserControllerTest {
                 .body("userId", equalTo("henriJavaDev"))
                 .body("firstName", equalTo("Henri"))
                 .body("lastName", equalTo("Gevenois"))
-                .body("email", equalTo("henri.gevenois@proton.org"))
+                .body("email", equalTo("henri.gevenois@proton.com"))
                 .extract()
                 .response();
     }
@@ -181,7 +181,7 @@ public class UserControllerTest {
                     "userId": "henriJavaDev",
                     "firstName": "Henri",
                     "lastName": "Gevenois",
-                    "email": "henri.gevenois@proton.org",
+                    "email": "henri.gevenois@proton.com",
                     "password": "1234",
                     "address": {
                         "street": "Rue de l'Aire",
@@ -234,33 +234,6 @@ public class UserControllerTest {
                         .statusCode(HttpStatus.OK.value())
                         .extract()
                         .as(UserDTO.class);
-
-        assertEquals(createCustomerDTO.getUserId(), userDTO.userId());
-    }
-
-    @Test
-    void whenThereIsOneUserIntoRepository_thenICanRetrieveItByEmailAndByPassword(){
-        // Given
-        userService.registerCustomer(createCustomerDTO);
-
-        // When
-        Response response =
-                given()
-                        .contentType(ContentType.JSON)
-                        .header("email", createCustomerDTO.getEmail())
-                        .header("password", createCustomerDTO.getPassword())
-                        .when()
-                        .port(port)
-                        .get("/users/login")
-                        .then()
-                        .assertThat()
-                        .statusCode(HttpStatus.OK.value())
-                        .body("user.userId", equalTo("henriTheJavaDev"))
-                        .body("message", equalTo("user found"))
-                        .extract()
-                        .response();
-
-        UserDTO userDTO = response.jsonPath().getObject("user", UserDTO.class);
 
         assertEquals(createCustomerDTO.getUserId(), userDTO.userId());
     }

@@ -1,0 +1,1110 @@
+2023-03-31T09:04:49.920+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:04:49.939+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:04:51.919+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:04:51.935+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:04:51.936+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:04:52.098+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:04:52.099+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1742 ms
+2023-03-31T09:04:53.613+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50420 (http) with context path ''
+2023-03-31T09:04:53.626+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 4.284 seconds (process running for 6.831)
+2023-03-31T09:04:55.524+02:00  INFO 1197 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:04:55.525+02:00  INFO 1197 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:04:55.526+02:00  INFO 1197 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:04:56.529+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:04:56.531+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:04:56.585+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:04:56.585+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:04:56.863+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:04:56.865+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:04:56.865+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:04:56.902+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:04:56.903+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 315 ms
+2023-03-31T09:04:57.663+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50423 (http) with context path ''
+2023-03-31T09:04:57.667+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 1.12 seconds (process running for 10.872)
+2023-03-31T09:04:58.179+02:00  INFO 1197 --- [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:04:58.179+02:00  INFO 1197 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:04:58.180+02:00  INFO 1197 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:04:58.220+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:04:58.220+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:04:58.261+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:04:58.261+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:04:58.547+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:04:58.548+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:04:58.549+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:04:58.570+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:04:58.570+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 306 ms
+2023-03-31T09:04:59.077+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50426 (http) with context path ''
+2023-03-31T09:04:59.081+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.852 seconds (process running for 12.286)
+2023-03-31T09:04:59.216+02:00  INFO 1197 --- [http-nio-auto-3-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:04:59.216+02:00  INFO 1197 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:04:59.217+02:00  INFO 1197 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:04:59.267+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:04:59.267+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:04:59.312+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:04:59.312+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:04:59.598+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:04:59.600+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:04:59.600+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:04:59.620+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:04:59.621+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 307 ms
+2023-03-31T09:05:00.045+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50430 (http) with context path ''
+2023-03-31T09:05:00.049+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.773 seconds (process running for 13.254)
+2023-03-31T09:05:00.083+02:00  INFO 1197 --- [http-nio-auto-4-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:05:00.084+02:00  INFO 1197 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:05:00.085+02:00  INFO 1197 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:05:00.258+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:05:00.259+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:05:00.292+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:05:00.292+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:05:00.528+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:05:00.529+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:05:00.529+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:05:00.552+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:05:00.552+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 258 ms
+2023-03-31T09:05:00.924+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50433 (http) with context path ''
+2023-03-31T09:05:00.927+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.661 seconds (process running for 14.132)
+2023-03-31T09:05:00.963+02:00  INFO 1197 --- [http-nio-auto-5-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:05:00.964+02:00  INFO 1197 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:05:00.964+02:00  INFO 1197 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T09:05:00.972+02:00 ERROR 1197 --- [http-nio-auto-5-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.service.exceptions.InsufficientAccessRightException: Insufficient rights to process this request
+	at com.switchfully.eurder.user.service.UserService.validateAdminAccess(UserService.java:71) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerAdministrator(UserService.java:34) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerAdministrator(UserController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T09:05:01.020+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:05:01.020+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:05:01.054+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:05:01.061+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:05:01.347+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:05:01.348+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:05:01.348+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:05:01.369+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:05:01.369+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 307 ms
+2023-03-31T09:05:01.795+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50436 (http) with context path ''
+2023-03-31T09:05:01.798+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.771 seconds (process running for 15.002)
+2023-03-31T09:05:01.817+02:00  INFO 1197 --- [http-nio-auto-6-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:05:01.818+02:00  INFO 1197 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:05:01.818+02:00  INFO 1197 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T09:05:01.982+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:05:01.983+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:05:02.013+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:05:02.013+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:05:02.227+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:05:02.228+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:05:02.228+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:05:02.248+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:05:02.249+02:00  INFO 1197 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2023-03-31T09:05:02.618+02:00  INFO 1197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50439 (http) with context path ''
+2023-03-31T09:05:02.621+02:00  INFO 1197 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.633 seconds (process running for 15.826)
+2023-03-31T09:05:02.641+02:00  INFO 1197 --- [http-nio-auto-7-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:05:02.641+02:00  INFO 1197 --- [http-nio-auto-7-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:05:02.642+02:00  INFO 1197 --- [http-nio-auto-7-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:05:02.746+02:00 ERROR 1197 --- [http-nio-auto-7-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.domain.exceptions.InvalidEmailFormatException: Invalid email format
+	at com.switchfully.eurder.user.domain.User.<init>(User.java:33) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserMapper.toEntity(UserMapper.java:38) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerCustomer(UserService.java:28) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerCustomer(UserController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T09:05:02.771+02:00  INFO 1197 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:05:02.771+02:00  INFO 1197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:05:03.529+02:00  INFO 1197 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.switchfully.eurder.EurderApplicationTests]: EurderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-31T09:05:03.549+02:00  INFO 1197 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.switchfully.eurder.EurderApplication for test class com.switchfully.eurder.EurderApplicationTests
+2023-03-31T09:05:03.604+02:00  INFO 1197 --- [main] c.s.eurder.EurderApplicationTests        : Starting EurderApplicationTests using Java 17.0.6 with PID 1197 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T09:05:03.604+02:00  INFO 1197 --- [main] c.s.eurder.EurderApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:05:04.218+02:00  INFO 1197 --- [main] c.s.eurder.EurderApplicationTests        : Started EurderApplicationTests in 0.657 seconds (process running for 17.423)
+2023-03-31T10:09:56.082+02:00  INFO 1561 --- [main] c.switchfully.eurder.EurderApplication   : Starting EurderApplication using Java 17.0.6 with PID 1561 (/Users/henrigevenois/Dropbox/Henri/SwitchFully/order/target/classes started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:09:56.086+02:00  INFO 1561 --- [main] c.switchfully.eurder.EurderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:09:57.399+02:00  INFO 1561 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-31T10:09:57.412+02:00  INFO 1561 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:09:57.412+02:00  INFO 1561 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:09:57.517+02:00  INFO 1561 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:09:57.518+02:00  INFO 1561 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2023-03-31T10:09:58.472+02:00  INFO 1561 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-31T10:09:58.481+02:00  INFO 1561 --- [main] c.switchfully.eurder.EurderApplication   : Started EurderApplication in 3.329 seconds (process running for 4.402)
+2023-03-31T10:10:08.775+02:00  INFO 1561 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:10:08.776+02:00  INFO 1561 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:10:08.777+02:00  INFO 1561 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:11:28.453+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:28.455+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:30.090+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:30.103+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:30.103+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:30.239+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:30.239+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2023-03-31T10:11:31.597+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51476 (http) with context path ''
+2023-03-31T10:11:31.609+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.564 seconds (process running for 5.477)
+2023-03-31T10:11:33.455+02:00  INFO 1572 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:33.456+02:00  INFO 1572 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:33.457+02:00  INFO 1572 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:11:33.655+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:33.657+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:33.722+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:33.723+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:34.070+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:34.071+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:34.072+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:34.103+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:34.103+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 377 ms
+2023-03-31T10:11:34.606+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51479 (http) with context path ''
+2023-03-31T10:11:34.610+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.925 seconds (process running for 8.478)
+2023-03-31T10:11:35.003+02:00  INFO 1572 --- [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:35.004+02:00  INFO 1572 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:35.004+02:00  INFO 1572 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:11:35.252+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:35.253+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:35.290+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:35.291+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:35.529+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:35.530+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:35.531+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:35.556+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:35.556+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 263 ms
+2023-03-31T10:11:35.953+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51482 (http) with context path ''
+2023-03-31T10:11:35.956+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.695 seconds (process running for 9.824)
+2023-03-31T10:11:36.077+02:00  INFO 1572 --- [http-nio-auto-3-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:36.077+02:00  INFO 1572 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:36.078+02:00  INFO 1572 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:11:36.123+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:36.124+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:36.160+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:36.160+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:36.413+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:36.415+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:36.415+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:36.434+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:36.434+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 272 ms
+2023-03-31T10:11:36.908+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51485 (http) with context path ''
+2023-03-31T10:11:36.910+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.78 seconds (process running for 10.778)
+2023-03-31T10:11:36.936+02:00  INFO 1572 --- [http-nio-auto-4-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:36.937+02:00  INFO 1572 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:36.937+02:00  INFO 1572 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:11:37.580+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:37.580+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:37.615+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:37.616+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:37.813+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:37.814+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:37.814+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:37.833+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:37.833+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 216 ms
+2023-03-31T10:11:38.191+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51488 (http) with context path ''
+2023-03-31T10:11:38.194+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.607 seconds (process running for 12.062)
+2023-03-31T10:11:38.210+02:00  INFO 1572 --- [http-nio-auto-5-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:38.210+02:00  INFO 1572 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:38.210+02:00  INFO 1572 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:11:38.221+02:00 ERROR 1572 --- [http-nio-auto-5-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.service.exceptions.InsufficientAccessRightException: Insufficient rights to process this request
+	at com.switchfully.eurder.user.service.UserService.validateAdminAccess(UserService.java:71) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerAdministrator(UserService.java:34) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerAdministrator(UserController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T10:11:38.239+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:38.239+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:38.286+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:38.287+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:38.531+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:38.535+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:38.536+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:38.555+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:38.555+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 266 ms
+2023-03-31T10:11:38.888+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51491 (http) with context path ''
+2023-03-31T10:11:38.890+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.645 seconds (process running for 12.758)
+2023-03-31T10:11:38.904+02:00  INFO 1572 --- [http-nio-auto-6-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:38.904+02:00  INFO 1572 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:38.905+02:00  INFO 1572 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:11:39.067+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:39.068+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:11:39.105+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1572 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:11:39.106+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:11:39.302+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:11:39.303+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:11:39.303+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:11:39.321+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:11:39.322+02:00  INFO 1572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 214 ms
+2023-03-31T10:11:39.642+02:00  INFO 1572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51494 (http) with context path ''
+2023-03-31T10:11:39.644+02:00  INFO 1572 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.568 seconds (process running for 13.513)
+2023-03-31T10:11:39.657+02:00  INFO 1572 --- [http-nio-auto-7-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:11:39.658+02:00  INFO 1572 --- [http-nio-auto-7-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:11:39.658+02:00  INFO 1572 --- [http-nio-auto-7-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:11:39.751+02:00 ERROR 1572 --- [http-nio-auto-7-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.domain.exceptions.InvalidEmailFormatException: Invalid email format
+	at com.switchfully.eurder.user.domain.User.<init>(User.java:33) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserMapper.toEntity(UserMapper.java:38) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerCustomer(UserService.java:28) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerCustomer(UserController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T10:11:39.772+02:00  INFO 1572 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:11:39.772+02:00  INFO 1572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:13:26.968+02:00  INFO 1608 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1608 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:13:26.970+02:00  INFO 1608 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:13:28.735+02:00  INFO 1608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:13:28.752+02:00  INFO 1608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:13:28.753+02:00  INFO 1608 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:13:28.950+02:00  INFO 1608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:13:28.950+02:00  INFO 1608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2023-03-31T10:13:30.325+02:00  INFO 1608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51516 (http) with context path ''
+2023-03-31T10:13:30.337+02:00  INFO 1608 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.873 seconds (process running for 6.198)
+2023-03-31T10:13:32.089+02:00  INFO 1608 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:13:32.090+02:00  INFO 1608 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:13:32.091+02:00  INFO 1608 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:13:33.003+02:00  INFO 1608 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:13:33.004+02:00  INFO 1608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:14:12.337+02:00  INFO 1612 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1612 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:14:12.341+02:00  INFO 1612 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:14:13.856+02:00  INFO 1612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:14:13.870+02:00  INFO 1612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:14:13.871+02:00  INFO 1612 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:14:14.044+02:00  INFO 1612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:14:14.045+02:00  INFO 1612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1420 ms
+2023-03-31T10:14:15.406+02:00  INFO 1612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51524 (http) with context path ''
+2023-03-31T10:14:15.417+02:00  INFO 1612 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.518 seconds (process running for 5.102)
+2023-03-31T10:14:17.105+02:00  INFO 1612 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:14:17.105+02:00  INFO 1612 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:14:17.107+02:00  INFO 1612 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:14:17.340+02:00  INFO 1612 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:14:17.341+02:00  INFO 1612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:14:37.833+02:00  INFO 1621 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1621 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:14:37.834+02:00  INFO 1621 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:14:39.375+02:00  INFO 1621 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:14:39.387+02:00  INFO 1621 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:14:39.388+02:00  INFO 1621 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:14:39.518+02:00  INFO 1621 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:14:39.520+02:00  INFO 1621 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1407 ms
+2023-03-31T10:14:40.809+02:00  INFO 1621 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51533 (http) with context path ''
+2023-03-31T10:14:40.820+02:00  INFO 1621 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.393 seconds (process running for 5.221)
+2023-03-31T10:14:42.409+02:00  INFO 1621 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:14:42.409+02:00  INFO 1621 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:14:42.411+02:00  INFO 1621 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:14:42.662+02:00  INFO 1621 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:14:42.663+02:00  INFO 1621 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:15:39.636+02:00  INFO 1629 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1629 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:15:39.639+02:00  INFO 1629 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:15:41.055+02:00  INFO 1629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:15:41.066+02:00  INFO 1629 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:15:41.067+02:00  INFO 1629 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:15:41.193+02:00  INFO 1629 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:15:41.194+02:00  INFO 1629 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2023-03-31T10:15:42.559+02:00  INFO 1629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51547 (http) with context path ''
+2023-03-31T10:15:42.571+02:00  INFO 1629 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.34 seconds (process running for 4.97)
+2023-03-31T10:15:44.163+02:00  INFO 1629 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:15:44.163+02:00  INFO 1629 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:15:44.164+02:00  INFO 1629 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:15:44.353+02:00  INFO 1629 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:15:44.354+02:00  INFO 1629 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:22:36.485+02:00  INFO 1654 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1654 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:22:36.488+02:00  INFO 1654 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:22:38.042+02:00  INFO 1654 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:22:38.057+02:00  INFO 1654 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:22:38.059+02:00  INFO 1654 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:22:38.203+02:00  INFO 1654 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:22:38.204+02:00  INFO 1654 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1413 ms
+2023-03-31T10:22:39.694+02:00  INFO 1654 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51591 (http) with context path ''
+2023-03-31T10:22:39.707+02:00  INFO 1654 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.639 seconds (process running for 5.401)
+2023-03-31T10:22:41.420+02:00  INFO 1654 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:22:41.421+02:00  INFO 1654 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:22:41.422+02:00  INFO 1654 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:22:41.546+02:00 ERROR 1654 --- [http-nio-auto-1-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.domain.exceptions.NoEmailPasswordMatchException: Incorrect password
+	at com.switchfully.eurder.user.service.UserService.searchUserByEmailAndByPassword(UserService.java:59) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.searchByEmailAndByPassword(UserController.java:42) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T10:22:41.716+02:00  INFO 1654 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:22:41.717+02:00  INFO 1654 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:23:07.159+02:00  INFO 1662 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1662 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:23:07.162+02:00  INFO 1662 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:23:08.690+02:00  INFO 1662 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:23:08.703+02:00  INFO 1662 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:23:08.704+02:00  INFO 1662 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:23:08.855+02:00  INFO 1662 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:23:08.856+02:00  INFO 1662 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1425 ms
+2023-03-31T10:23:10.239+02:00  INFO 1662 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51603 (http) with context path ''
+2023-03-31T10:23:10.249+02:00  INFO 1662 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.513 seconds (process running for 5.351)
+2023-03-31T10:23:11.871+02:00  INFO 1662 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:23:11.871+02:00  INFO 1662 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:23:11.872+02:00  INFO 1662 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:23:12.750+02:00  INFO 1662 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:23:12.753+02:00  INFO 1662 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:23:32.350+02:00  INFO 1667 --- [main] c.switchfully.eurder.EurderApplication   : Starting EurderApplication using Java 17.0.6 with PID 1667 (/Users/henrigevenois/Dropbox/Henri/SwitchFully/order/target/classes started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:23:32.353+02:00  INFO 1667 --- [main] c.switchfully.eurder.EurderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:23:33.622+02:00  INFO 1667 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-31T10:23:33.632+02:00  INFO 1667 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:23:33.634+02:00  INFO 1667 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:23:33.738+02:00  INFO 1667 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:23:33.739+02:00  INFO 1667 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2023-03-31T10:23:34.618+02:00  INFO 1667 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-31T10:23:34.629+02:00  INFO 1667 --- [main] c.switchfully.eurder.EurderApplication   : Started EurderApplication in 3.341 seconds (process running for 4.323)
+2023-03-31T10:23:38.397+02:00  INFO 1667 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:23:38.398+02:00  INFO 1667 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:23:38.399+02:00  INFO 1667 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:34:18.256+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:18.259+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:19.951+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:19.963+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:19.964+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:20.105+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:20.106+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1551 ms
+2023-03-31T10:34:21.512+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51710 (http) with context path ''
+2023-03-31T10:34:21.523+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 3.833 seconds (process running for 5.964)
+2023-03-31T10:34:23.511+02:00  INFO 1710 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:23.512+02:00  INFO 1710 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:23.514+02:00  INFO 1710 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T10:34:23.867+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:23.869+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:34:23.925+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:23.926+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:24.211+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:24.211+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:24.212+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:24.235+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:24.235+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 307 ms
+2023-03-31T10:34:24.735+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51713 (http) with context path ''
+2023-03-31T10:34:24.739+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.85 seconds (process running for 9.18)
+2023-03-31T10:34:24.865+02:00  INFO 1710 --- [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:24.865+02:00  INFO 1710 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:24.866+02:00  INFO 1710 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:34:24.911+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:24.912+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:34:24.958+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:24.959+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:25.234+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:25.235+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:25.236+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:25.261+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:25.262+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
+2023-03-31T10:34:25.664+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51716 (http) with context path ''
+2023-03-31T10:34:25.668+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.741 seconds (process running for 10.109)
+2023-03-31T10:34:25.692+02:00  INFO 1710 --- [http-nio-auto-3-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:25.693+02:00  INFO 1710 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:25.694+02:00  INFO 1710 --- [http-nio-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:34:26.301+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:26.301+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:34:26.334+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:26.335+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:26.539+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:26.541+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:26.541+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:26.562+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:26.563+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 226 ms
+2023-03-31T10:34:26.929+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51719 (http) with context path ''
+2023-03-31T10:34:26.932+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.625 seconds (process running for 11.373)
+2023-03-31T10:34:26.950+02:00  INFO 1710 --- [http-nio-auto-4-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:26.950+02:00  INFO 1710 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:26.951+02:00  INFO 1710 --- [http-nio-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:34:26.958+02:00 ERROR 1710 --- [http-nio-auto-4-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.service.exceptions.InsufficientAccessRightException: Insufficient rights to process this request
+	at com.switchfully.eurder.user.service.UserService.validateAdminAccess(UserService.java:71) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerAdministrator(UserService.java:34) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerAdministrator(UserController.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T10:34:26.975+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:26.976+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:34:27.012+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:27.013+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:27.216+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:27.217+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:27.217+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:27.246+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:27.246+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 232 ms
+2023-03-31T10:34:27.642+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51722 (http) with context path ''
+2023-03-31T10:34:27.644+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.661 seconds (process running for 12.086)
+2023-03-31T10:34:27.660+02:00  INFO 1710 --- [http-nio-auto-5-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:27.660+02:00  INFO 1710 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:27.661+02:00  INFO 1710 --- [http-nio-auto-5-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T10:34:27.819+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:27.819+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:34:27.855+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Starting UserControllerTest using Java 17.0.6 with PID 1710 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:34:27.855+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:34:28.083+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T10:34:28.085+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:34:28.085+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:34:28.105+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:34:28.106+02:00  INFO 1710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+2023-03-31T10:34:28.450+02:00  INFO 1710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51725 (http) with context path ''
+2023-03-31T10:34:28.453+02:00  INFO 1710 --- [main] c.s.eurder.user.api.UserControllerTest   : Started UserControllerTest in 0.626 seconds (process running for 12.894)
+2023-03-31T10:34:28.468+02:00  INFO 1710 --- [http-nio-auto-6-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:34:28.469+02:00  INFO 1710 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:34:28.469+02:00  INFO 1710 --- [http-nio-auto-6-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-31T10:34:28.565+02:00 ERROR 1710 --- [http-nio-auto-6-exec-1] s.e.u.a.e.UserControllerExceptionHandler : Exception raised: 
+
+com.switchfully.eurder.user.domain.exceptions.InvalidEmailFormatException: Invalid email format
+	at com.switchfully.eurder.user.domain.User.<init>(User.java:33) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserMapper.toEntity(UserMapper.java:38) ~[classes/:na]
+	at com.switchfully.eurder.user.service.UserService.registerCustomer(UserService.java:28) ~[classes/:na]
+	at com.switchfully.eurder.user.api.UserController.registerCustomer(UserController.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-03-31T10:34:28.586+02:00  INFO 1710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T10:34:28.587+02:00  INFO 1710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T10:36:37.863+02:00  INFO 1725 --- [main] c.switchfully.eurder.EurderApplication   : Starting EurderApplication using Java 17.0.6 with PID 1725 (/Users/henrigevenois/Dropbox/Henri/SwitchFully/order/target/classes started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T10:36:37.868+02:00  INFO 1725 --- [main] c.switchfully.eurder.EurderApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T10:36:39.106+02:00  INFO 1725 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-31T10:36:39.127+02:00  INFO 1725 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T10:36:39.127+02:00  INFO 1725 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T10:36:39.230+02:00  INFO 1725 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T10:36:39.230+02:00  INFO 1725 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1129 ms
+2023-03-31T10:36:40.148+02:00  INFO 1725 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-31T10:36:40.160+02:00  INFO 1725 --- [main] c.switchfully.eurder.EurderApplication   : Started EurderApplication in 3.097 seconds (process running for 4.05)
+2023-03-31T10:36:52.119+02:00  INFO 1725 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T10:36:52.120+02:00  INFO 1725 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T10:36:52.121+02:00  INFO 1725 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:07:38.264+02:00  INFO 1864 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1864 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:07:38.266+02:00  INFO 1864 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:07:39.810+02:00  INFO 1864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:07:39.821+02:00  INFO 1864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:07:39.822+02:00  INFO 1864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:07:39.959+02:00  INFO 1864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:07:39.959+02:00  INFO 1864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1395 ms
+2023-03-31T11:07:41.204+02:00  INFO 1864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52551 (http) with context path ''
+2023-03-31T11:07:41.216+02:00  INFO 1864 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.333 seconds (process running for 5.257)
+2023-03-31T11:07:42.688+02:00  INFO 1864 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:07:42.688+02:00  INFO 1864 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:07:42.689+02:00  INFO 1864 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:07:42.861+02:00  INFO 1864 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:07:42.862+02:00  INFO 1864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:08:16.006+02:00  INFO 1870 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1870 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:08:16.010+02:00  INFO 1870 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:08:17.750+02:00  INFO 1870 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:08:17.763+02:00  INFO 1870 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:08:17.764+02:00  INFO 1870 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:08:17.907+02:00  INFO 1870 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:08:17.908+02:00  INFO 1870 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1596 ms
+2023-03-31T11:08:19.356+02:00  INFO 1870 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52562 (http) with context path ''
+2023-03-31T11:08:19.371+02:00  INFO 1870 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.785 seconds (process running for 5.614)
+2023-03-31T11:08:20.911+02:00  INFO 1870 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:08:20.912+02:00  INFO 1870 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:08:20.914+02:00  INFO 1870 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T11:08:21.154+02:00  INFO 1870 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:08:21.157+02:00  INFO 1870 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:09:40.007+02:00  INFO 1875 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1875 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:09:40.014+02:00  INFO 1875 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:09:41.715+02:00  INFO 1875 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:09:41.727+02:00  INFO 1875 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:09:41.728+02:00  INFO 1875 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:09:41.868+02:00  INFO 1875 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:09:41.869+02:00  INFO 1875 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1568 ms
+2023-03-31T11:09:43.352+02:00  INFO 1875 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52575 (http) with context path ''
+2023-03-31T11:09:43.365+02:00  INFO 1875 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.79 seconds (process running for 5.533)
+2023-03-31T11:09:45.010+02:00  INFO 1875 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:09:45.011+02:00  INFO 1875 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:09:45.012+02:00  INFO 1875 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:09:45.895+02:00  INFO 1875 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:09:45.896+02:00  INFO 1875 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:12:47.221+02:00  INFO 1892 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1892 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:12:47.224+02:00  INFO 1892 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:12:49.026+02:00  INFO 1892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:12:49.039+02:00  INFO 1892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:12:49.040+02:00  INFO 1892 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:12:49.178+02:00  INFO 1892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:12:49.179+02:00  INFO 1892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
+2023-03-31T11:12:50.703+02:00  INFO 1892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52606 (http) with context path ''
+2023-03-31T11:12:50.715+02:00  INFO 1892 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.95 seconds (process running for 5.832)
+2023-03-31T11:12:52.451+02:00  INFO 1892 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:12:52.451+02:00  INFO 1892 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:12:52.453+02:00  INFO 1892 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:12:53.261+02:00  INFO 1892 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:12:53.263+02:00  INFO 1892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:17:48.484+02:00  INFO 1910 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1910 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:17:48.486+02:00  INFO 1910 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:17:50.125+02:00  INFO 1910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:17:50.136+02:00  INFO 1910 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:17:50.137+02:00  INFO 1910 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:17:50.267+02:00  INFO 1910 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:17:50.268+02:00  INFO 1910 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
+2023-03-31T11:17:51.703+02:00  INFO 1910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52644 (http) with context path ''
+2023-03-31T11:17:51.716+02:00  INFO 1910 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.702 seconds (process running for 5.569)
+2023-03-31T11:17:53.448+02:00  INFO 1910 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:17:53.448+02:00  INFO 1910 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:17:53.450+02:00  INFO 1910 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T11:17:54.323+02:00  INFO 1910 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:17:54.324+02:00  INFO 1910 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:49:27.274+02:00  INFO 1992 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1992 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:49:27.277+02:00  INFO 1992 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:49:28.817+02:00  INFO 1992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:49:28.829+02:00  INFO 1992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:49:28.830+02:00  INFO 1992 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:49:28.970+02:00  INFO 1992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:49:28.971+02:00  INFO 1992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+2023-03-31T11:49:30.395+02:00  INFO 1992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52833 (http) with context path ''
+2023-03-31T11:49:30.407+02:00  INFO 1992 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.573 seconds (process running for 5.198)
+2023-03-31T11:49:31.893+02:00  INFO 1992 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:49:31.894+02:00  INFO 1992 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:49:31.895+02:00  INFO 1992 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:49:32.077+02:00  INFO 1992 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:49:32.079+02:00  INFO 1992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:49:54.504+02:00  INFO 1997 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 1997 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:49:54.507+02:00  INFO 1997 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:49:56.184+02:00  INFO 1997 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:49:56.201+02:00  INFO 1997 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:49:56.202+02:00  INFO 1997 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:49:56.361+02:00  INFO 1997 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:49:56.362+02:00  INFO 1997 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1515 ms
+2023-03-31T11:49:57.822+02:00  INFO 1997 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52841 (http) with context path ''
+2023-03-31T11:49:57.835+02:00  INFO 1997 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.817 seconds (process running for 6.655)
+2023-03-31T11:49:59.475+02:00  INFO 1997 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:49:59.476+02:00  INFO 1997 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:49:59.477+02:00  INFO 1997 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:49:59.697+02:00  INFO 1997 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:49:59.699+02:00  INFO 1997 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:50:10.474+02:00  INFO 2000 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2000 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:50:10.476+02:00  INFO 2000 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:50:12.176+02:00  INFO 2000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:50:12.191+02:00  INFO 2000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:50:12.192+02:00  INFO 2000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:50:12.352+02:00  INFO 2000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:50:12.353+02:00  INFO 2000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1540 ms
+2023-03-31T11:50:13.855+02:00  INFO 2000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52847 (http) with context path ''
+2023-03-31T11:50:13.868+02:00  INFO 2000 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.839 seconds (process running for 5.907)
+2023-03-31T11:51:54.772+02:00  INFO 2000 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:51:54.772+02:00  INFO 2000 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:51:54.773+02:00  INFO 2000 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:52:18.746+02:00  INFO 2021 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2021 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:52:18.748+02:00  INFO 2021 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:52:20.329+02:00  INFO 2021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:52:20.342+02:00  INFO 2021 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:52:20.342+02:00  INFO 2021 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:52:20.473+02:00  INFO 2021 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:52:20.474+02:00  INFO 2021 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1425 ms
+2023-03-31T11:52:21.844+02:00  INFO 2021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52867 (http) with context path ''
+2023-03-31T11:52:21.857+02:00  INFO 2021 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.563 seconds (process running for 5.545)
+2023-03-31T11:52:23.480+02:00  INFO 2021 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:52:23.480+02:00  INFO 2021 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:52:23.482+02:00  INFO 2021 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T11:52:23.679+02:00  INFO 2021 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:52:23.681+02:00  INFO 2021 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:53:23.304+02:00  INFO 2060 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2060 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:53:23.309+02:00  INFO 2060 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:53:24.896+02:00  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:53:24.909+02:00  INFO 2060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:53:24.910+02:00  INFO 2060 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:53:25.050+02:00  INFO 2060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:53:25.051+02:00  INFO 2060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2023-03-31T11:53:26.453+02:00  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52883 (http) with context path ''
+2023-03-31T11:53:26.465+02:00  INFO 2060 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.558 seconds (process running for 5.229)
+2023-03-31T11:53:28.045+02:00  INFO 2060 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:53:28.046+02:00  INFO 2060 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:53:28.047+02:00  INFO 2060 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:53:28.448+02:00  INFO 2060 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:53:28.450+02:00  INFO 2060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:55:04.338+02:00  INFO 2078 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2078 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:55:04.340+02:00  INFO 2078 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:55:05.964+02:00  INFO 2078 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:55:05.976+02:00  INFO 2078 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:55:05.977+02:00  INFO 2078 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:55:06.118+02:00  INFO 2078 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:55:06.119+02:00  INFO 2078 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1447 ms
+2023-03-31T11:55:07.383+02:00  INFO 2078 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52908 (http) with context path ''
+2023-03-31T11:55:07.395+02:00  INFO 2078 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.492 seconds (process running for 5.193)
+2023-03-31T11:55:08.939+02:00  INFO 2078 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:55:08.939+02:00  INFO 2078 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:55:08.940+02:00  INFO 2078 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:55:09.361+02:00  INFO 2078 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:55:09.362+02:00  INFO 2078 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:57:29.044+02:00  INFO 2091 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2091 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:57:29.046+02:00  INFO 2091 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:57:30.954+02:00  INFO 2091 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:57:30.968+02:00  INFO 2091 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:57:30.968+02:00  INFO 2091 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:57:31.116+02:00  INFO 2091 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:57:31.116+02:00  INFO 2091 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
+2023-03-31T11:57:32.624+02:00  INFO 2091 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52948 (http) with context path ''
+2023-03-31T11:57:32.636+02:00  INFO 2091 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.073 seconds (process running for 6.311)
+2023-03-31T11:57:34.396+02:00  INFO 2091 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:57:34.397+02:00  INFO 2091 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:57:34.398+02:00  INFO 2091 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:58:57.870+02:00  INFO 2102 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2102 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:58:57.873+02:00  INFO 2102 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:58:59.413+02:00  INFO 2102 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:58:59.427+02:00  INFO 2102 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:58:59.427+02:00  INFO 2102 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:58:59.561+02:00  INFO 2102 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:58:59.562+02:00  INFO 2102 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1420 ms
+2023-03-31T11:59:00.956+02:00  INFO 2102 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52967 (http) with context path ''
+2023-03-31T11:59:00.968+02:00  INFO 2102 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.533 seconds (process running for 5.286)
+2023-03-31T11:59:02.415+02:00  INFO 2102 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:59:02.416+02:00  INFO 2102 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:59:02.417+02:00  INFO 2102 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:59:02.781+02:00  INFO 2102 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:59:02.784+02:00  INFO 2102 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T11:59:47.972+02:00  INFO 2108 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2108 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T11:59:47.976+02:00  INFO 2108 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T11:59:49.658+02:00  INFO 2108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T11:59:49.671+02:00  INFO 2108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T11:59:49.671+02:00  INFO 2108 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T11:59:49.836+02:00  INFO 2108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T11:59:49.837+02:00  INFO 2108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1527 ms
+2023-03-31T11:59:51.426+02:00  INFO 2108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52978 (http) with context path ''
+2023-03-31T11:59:51.440+02:00  INFO 2108 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.967 seconds (process running for 6.125)
+2023-03-31T11:59:53.279+02:00  INFO 2108 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T11:59:53.279+02:00  INFO 2108 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T11:59:53.281+02:00  INFO 2108 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T11:59:53.717+02:00  INFO 2108 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T11:59:53.719+02:00  INFO 2108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:01:53.458+02:00  INFO 2125 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2125 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:01:53.460+02:00  INFO 2125 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:01:55.205+02:00  INFO 2125 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:01:55.220+02:00  INFO 2125 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:01:55.221+02:00  INFO 2125 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:01:55.418+02:00  INFO 2125 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:01:55.419+02:00  INFO 2125 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2023-03-31T12:01:56.844+02:00  INFO 2125 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53002 (http) with context path ''
+2023-03-31T12:01:56.857+02:00  INFO 2125 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.941 seconds (process running for 5.985)
+2023-03-31T12:01:58.563+02:00  INFO 2125 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:01:58.564+02:00  INFO 2125 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:01:58.565+02:00  INFO 2125 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:02:45.364+02:00  INFO 2125 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:02:45.366+02:00  INFO 2125 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:03:53.138+02:00  INFO 2135 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2135 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:03:53.141+02:00  INFO 2135 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:03:54.863+02:00  INFO 2135 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:03:54.876+02:00  INFO 2135 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:03:54.877+02:00  INFO 2135 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:03:55.049+02:00  INFO 2135 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:03:55.049+02:00  INFO 2135 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1565 ms
+2023-03-31T12:03:56.448+02:00  INFO 2135 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53019 (http) with context path ''
+2023-03-31T12:03:56.461+02:00  INFO 2135 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.798 seconds (process running for 5.369)
+2023-03-31T12:03:58.219+02:00  INFO 2135 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:03:58.219+02:00  INFO 2135 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:03:58.221+02:00  INFO 2135 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:06:43.971+02:00  INFO 2135 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:06:43.973+02:00  INFO 2135 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:07:05.448+02:00  INFO 2151 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2151 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:07:05.451+02:00  INFO 2151 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:07:06.971+02:00  INFO 2151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:07:06.984+02:00  INFO 2151 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:07:06.985+02:00  INFO 2151 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:07:07.111+02:00  INFO 2151 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:07:07.112+02:00  INFO 2151 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1392 ms
+2023-03-31T12:07:08.487+02:00  INFO 2151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53050 (http) with context path ''
+2023-03-31T12:07:08.502+02:00  INFO 2151 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.47 seconds (process running for 5.368)
+2023-03-31T12:07:10.098+02:00  INFO 2151 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:07:10.099+02:00  INFO 2151 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:07:10.102+02:00  INFO 2151 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T12:07:10.471+02:00  INFO 2151 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:07:10.473+02:00  INFO 2151 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:18:17.592+02:00  INFO 2180 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2180 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:18:17.595+02:00  INFO 2180 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:18:19.160+02:00  INFO 2180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:18:19.173+02:00  INFO 2180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:18:19.174+02:00  INFO 2180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:18:19.310+02:00  INFO 2180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:18:19.310+02:00  INFO 2180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2023-03-31T12:18:20.721+02:00  INFO 2180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53668 (http) with context path ''
+2023-03-31T12:18:20.733+02:00  INFO 2180 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.575 seconds (process running for 5.158)
+2023-03-31T12:18:22.367+02:00  INFO 2180 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:18:22.367+02:00  INFO 2180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:18:22.369+02:00  INFO 2180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:18:22.551+02:00  INFO 2180 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:18:22.553+02:00  INFO 2180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:19:07.296+02:00  INFO 2185 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2185 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:19:07.299+02:00  INFO 2185 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:19:08.834+02:00  INFO 2185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:19:08.852+02:00  INFO 2185 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:19:08.853+02:00  INFO 2185 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:19:08.989+02:00  INFO 2185 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:19:08.989+02:00  INFO 2185 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1419 ms
+2023-03-31T12:19:10.388+02:00  INFO 2185 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53677 (http) with context path ''
+2023-03-31T12:19:10.400+02:00  INFO 2185 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.542 seconds (process running for 5.356)
+2023-03-31T12:19:11.848+02:00  INFO 2185 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:19:11.848+02:00  INFO 2185 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:19:11.850+02:00  INFO 2185 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:19:12.025+02:00  INFO 2185 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:19:12.027+02:00  INFO 2185 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:19:24.812+02:00  INFO 2189 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2189 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:19:24.815+02:00  INFO 2189 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:19:26.833+02:00  INFO 2189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:19:26.846+02:00  INFO 2189 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:19:26.846+02:00  INFO 2189 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:19:27.000+02:00  INFO 2189 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:19:27.000+02:00  INFO 2189 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1851 ms
+2023-03-31T12:19:28.470+02:00  INFO 2189 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53686 (http) with context path ''
+2023-03-31T12:19:28.482+02:00  INFO 2189 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 4.121 seconds (process running for 6.248)
+2023-03-31T12:19:30.154+02:00  INFO 2189 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:19:30.154+02:00  INFO 2189 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:19:30.155+02:00  INFO 2189 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:19:30.339+02:00  INFO 2189 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:19:30.341+02:00  INFO 2189 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:19:36.850+02:00  INFO 2193 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2193 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:19:36.852+02:00  INFO 2193 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:19:38.276+02:00  INFO 2193 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:19:38.289+02:00  INFO 2193 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:19:38.290+02:00  INFO 2193 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:19:38.439+02:00  INFO 2193 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:19:38.440+02:00  INFO 2193 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
+2023-03-31T12:19:39.804+02:00  INFO 2193 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53692 (http) with context path ''
+2023-03-31T12:19:39.816+02:00  INFO 2193 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.346 seconds (process running for 4.902)
+2023-03-31T12:19:41.265+02:00  INFO 2193 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:19:41.265+02:00  INFO 2193 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:19:41.267+02:00  INFO 2193 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-31T12:19:41.452+02:00  INFO 2193 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:19:41.454+02:00  INFO 2193 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T12:20:04.951+02:00  INFO 2198 --- [main] c.s.eurder.item.api.ItemControllerTest   : Starting ItemControllerTest using Java 17.0.6 with PID 2198 (started by henrigevenois in /Users/henrigevenois/Dropbox/Henri/SwitchFully/order)
+2023-03-31T12:20:04.953+02:00  INFO 2198 --- [main] c.s.eurder.item.api.ItemControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T12:20:06.359+02:00  INFO 2198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T12:20:06.370+02:00  INFO 2198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T12:20:06.371+02:00  INFO 2198 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T12:20:06.504+02:00  INFO 2198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T12:20:06.505+02:00  INFO 2198 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
+2023-03-31T12:20:07.847+02:00  INFO 2198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53700 (http) with context path ''
+2023-03-31T12:20:07.857+02:00  INFO 2198 --- [main] c.s.eurder.item.api.ItemControllerTest   : Started ItemControllerTest in 3.28 seconds (process running for 4.955)
+2023-03-31T12:20:09.419+02:00  INFO 2198 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T12:20:09.420+02:00  INFO 2198 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T12:20:09.421+02:00  INFO 2198 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T12:20:09.781+02:00  INFO 2198 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T12:20:09.782+02:00  INFO 2198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

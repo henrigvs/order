@@ -27,9 +27,11 @@ public class ItemService {
         this.itemMapper = new ItemMapper();
     }
 
-    public ItemDTO saveItem(CreateItemDTO createItemDTO){
-        Item item = itemRepository.saveItem(itemMapper.toEntity(createItemDTO));
+    public ItemDTO saveItem(CreateItemDTO createItemDTO, String adminId){
+        User admin = userRepository.getUserByUserId(adminId);
+        validateAdminAccess(admin);
 
+        Item item = itemRepository.saveItem(itemMapper.toEntity(createItemDTO));
         return itemMapper.toDTO(item);
     }
 
@@ -45,6 +47,13 @@ public class ItemService {
 
         Item updatedItem = itemRepository.updateItem(itemToUpdate, itemId);
         return itemMapper.toDTO(updatedItem);
+    }
+
+    public List<ItemDTO> getAllItems(String adminId){
+        validateAdminAccess(userRepository.getUserByUserId(adminId));
+        return itemRepository.getAllItems().stream()
+                .map(itemMapper::toDTO)
+                .collect(Collectors.toList());
     }
 
     public ItemDTO getItemById(String itemId){
@@ -64,13 +73,6 @@ public class ItemService {
     public List<ItemDTO> getStockHigh(String adminId){
         validateAdminAccess(userRepository.getUserByUserId(adminId));
         return itemMapper.toDTOList(itemRepository.getStockHigh());
-    }
-
-    public List<ItemDTO> getAllItems(String adminId){
-        validateAdminAccess(userRepository.getUserByUserId(adminId));
-        return itemRepository.getAllItems().stream()
-                .map(itemMapper::toDTO)
-                .collect(Collectors.toList());
     }
 
     private void validateAdminAccess(User adminUser) {
