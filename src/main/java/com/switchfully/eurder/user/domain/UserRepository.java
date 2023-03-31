@@ -28,7 +28,7 @@ public class UserRepository {
         userRepository.put(initialAdmin.getUserId(), initialAdmin);
     }
 
-    public User saveUser(User user) throws EmailAlreadyExistsException, UserIdAlreadyExistsException {
+    public User saveUser(User user) {
         if (!isEmailUnique(user.getEmail())) {
             throw new EmailAlreadyExistsException();
         }
@@ -39,7 +39,7 @@ public class UserRepository {
         return user;
     }
 
-    public User deleteUser(String userId) throws NonExistingUserIdException {
+    public User deleteUser(String userId)  {
         if (!userRepository.containsKey(userId)) {
             throw new NonExistingUserIdException();
         }
