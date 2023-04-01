@@ -17,17 +17,17 @@ class ItemGroupTest {
         String itemId = UUID.randomUUID().toString();
         double price = 10.0;
         int amountOrdered = -1;
-        LocalDate shippingDate = LocalDate.now().plusDays(7);
+        LocalDate shippingDate = LocalDate.now().plusDays(1);
 
         assertThrows(NegativeAmountOrdered.class, () -> new ItemGroup(itemId, price, amountOrdered, shippingDate));
     }
 
     @Test
-    void createItemGroup_whenShippingDateBeforeNextSevenDays_thenThrowsIllegalDateOfOrder() {
+    void createItemGroup_whenShippingDateBeforeNextDay_thenThrowsIllegalDateOfOrder() {
         String itemId = UUID.randomUUID().toString();
         double price = 10.0;
         int amountOrdered = 1;
-        LocalDate shippingDate = LocalDate.now().plusDays(6);
+        LocalDate shippingDate = LocalDate.now();
         assertThrows(IllegalDateOfOrder.class, () -> new ItemGroup(itemId, price, amountOrdered, shippingDate));
     }
 

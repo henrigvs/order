@@ -16,7 +16,7 @@ public class ItemGroup {
     public ItemGroup(String itemId, double price, int amountOrdered, LocalDate shippingDate) {
         if(amountOrdered < 0)
             throw new NegativeAmountOrdered();
-        if(shippingDate.isBefore(LocalDate.now().plusDays(7)))
+        if(shippingDate.isBefore(LocalDate.now().plusDays(1)))
             throw new IllegalDateOfOrder();
         this.itemId = itemId;
         this.price = price;

@@ -2,6 +2,7 @@ package com.switchfully.eurder.order.domain;
 
 import com.switchfully.eurder.order.domain.exceptions.OrderAlreadyExistsException;
 import com.switchfully.eurder.order.domain.exceptions.OrderIdDoesNotExistException;
+import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 import java.util.Collection;
@@ -9,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
+@Repository
 public class OrderRepository {
 
     private final ConcurrentHashMap<String, Order> orderRepository;

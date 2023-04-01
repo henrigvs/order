@@ -17,7 +17,7 @@ public class Order {
         this.orderId = UUID.randomUUID().toString();
         this.customerId = customerId;
         this.itemGroups = itemGroups;
-        this.totalPrice = calculateTotalPrice(itemGroups);
+        this.totalPrice = Math.round(calculateTotalPrice(itemGroups)*100.0)/100.0;
         this.orderDate = LocalDate.now();
     }
 

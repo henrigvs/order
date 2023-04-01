@@ -2,7 +2,6 @@ package com.switchfully.eurder.item.api.exceptionshandler;
 
 
 import com.switchfully.eurder.item.domain.exceptions.*;
-import com.switchfully.eurder.user.api.exceptionhandler.UserErrorResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
