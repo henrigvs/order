@@ -23,7 +23,7 @@ public class ItemController {
     }
 
 
-    /** POST */
+    /* POST */
 
     @PostMapping(path = "/item", produces = "application/json", consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
@@ -31,13 +31,15 @@ public class ItemController {
         return itemService.saveItem(createItemDTO, adminId);
     }
 
+    /* PUT */
+
     @PutMapping(path = "/item/{itemId}", produces = "application/json", consumes = "application/json")
     @ResponseStatus(HttpStatus.OK)
     public ItemDTO updateItem(@RequestBody UpdateItemDTO updateItemDTO, @PathVariable String itemId, @RequestHeader String adminId){
         return itemService.updateItem(updateItemDTO, itemId, adminId);
     }
 
-    /** GET */
+    /* GET */
 
     @GetMapping(path = "/allItems", produces = "application/json")
     @ResponseStatus(HttpStatus.OK)

@@ -1,0 +1,558 @@
+{
+	"info": {
+		"_postman_id": "d574f8f2-b820-41dd-9c94-92df725ea339",
+		"name": "Örder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26694319"
+	},
+	"item": [
+		{
+			"name": "users management",
+			"item": [
+				{
+					"name": "getAllUsers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/users/allUsers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"allUsers"
+							],
+							"query": [
+								{
+									"key": "adminId",
+									"value": "initialAdmin",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": \"henriJavaDev\",\n    \"firstName\": \"Henri\",\n    \"lastName\": \"Gevenois\",\n    \"email\": \"henri.gevenois@proton.com\",\n    \"password\": \"1234\",\n    \"address\": {\n        \"street\": \"Rue de l'Aire\",\n        \"number\": \"102\",\n        \"box\": null,\n        \"zip\": \"7060\",\n        \"city\": \"Horrues\"\n    },\n    \"phoneNumber\": {\n        \"countryCode\": \"+32\",\n        \"localNumber\": \"476983887\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUserByUserId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/users/user/henriJavaDev",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"user",
+								"henriJavaDev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": \"CR7\",\n    \"firstName\": \"Cristiano\",\n    \"lastName\": \"Ronaldo\",\n    \"email\": \"cr7@juventus.it\",\n    \"password\": \"cr7\",\n    \"address\": {\n        \"street\": \"Via Druento\",\n        \"number\": \"175\",\n        \"box\": null,\n        \"zip\": \"10151\",\n        \"city\": \"Torino\"\n    },\n    \"phoneNumber\": {\n        \"countryCode\": \"+39\",\n        \"localNumber\": \"114530486\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "searchUserByUserId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/users/user/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"user",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "items management",
+			"item": [
+				{
+					"name": "create a first item",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Colgate\",\n    \"description\": \"For a white smile\",\n    \"price\": 2.49,\n    \"amount\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/items/item",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"item"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create a second item",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"iPhone 14 Pro\",\n    \"description\": \"The latest generation of smartphone\",\n    \"price\": 1299.50,\n    \"amount\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/items/item/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"item",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update An Item",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"iPhone 14 Pro\",\n    \"description\": \"The latest generation of smartphone\",\n    \"price\": 1299.50,\n    \"amount\": 15\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/items/item/f41eea44-7ce2-4d17-ab27-125f582368c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"item",
+								"f41eea44-7ce2-4d17-ab27-125f582368c4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getItemById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/items/item/f41eea44-7ce2-4d17-ab27-125f582368c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"item",
+								"f41eea44-7ce2-4d17-ab27-125f582368c4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all items",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/items/allItems",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"allItems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get medium stock",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/items/mediumStock",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"mediumStock"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get high stock",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/items/highStock",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"highStock"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get low stock",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/items/lowStock",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"items",
+								"lowStock"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders management",
+			"item": [
+				{
+					"name": "Create a first order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"itemId\": \"f41eea44-7ce2-4d17-ab27-125f582368c4\",\n        \"amountOrdered\": 1\n    },\n    {\n        \"itemId\": \"0781be99-dcdb-4183-8bed-fea07e414216\",\n        \"amountOrdered\": 4\n    }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/orders/order/henriJavaDev",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"order",
+								"henriJavaDev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a second order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"itemId\": \"428dd0c5-5bec-443f-8bf4-ff9fd1ecfd59\",\n        \"amountOrdered\": 1\n    }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/orders/order/henriJavaDev",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"order",
+								"henriJavaDev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reorder an existing order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/orders/reorder/17616765-8686-455f-bb99-dc8e0139bd8a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"reorder",
+								"17616765-8686-455f-bb99-dc8e0139bd8a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all orders",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "adminId",
+								"value": "initialAdmin",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/orders/allOrders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"allOrders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a report of the orders of one customer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/orders/allOrders/henriJavaDev",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"allOrders",
+								"henriJavaDev"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
